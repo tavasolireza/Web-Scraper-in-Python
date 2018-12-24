@@ -56,7 +56,6 @@ def scrape():
         find_price(soup)
         find_details(soup)
 
-
 def data_base():
     my_db = mysql.connector.connect(
         host="127.0.0.1",
